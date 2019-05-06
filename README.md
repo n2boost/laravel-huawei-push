@@ -83,6 +83,15 @@ return [
 
 ```
 
+## TODOs
+
+* Push Feedback 
+
+## Reference
+
+* [消息推送服务--Agent](https://developer.huawei.com/consumer/cn/service/hms/catalog/huaweipush_agent.html?page=hmssdk_huaweipush_devguide_server_agent)
+* [huangyongda/huaweipush - Packagist](https://packagist.org/packages/huangyongda/huaweipush#v1.2.6)
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
