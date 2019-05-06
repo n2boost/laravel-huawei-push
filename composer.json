@@ -1,0 +1,38 @@
+{
+    "name": "n2boost/laravel-huawei-push",
+    "description": "Huawei Push SDK for Laravel",
+    "keywords": [
+        "n2boost",
+        "huawei",
+        "laravel-huawei-push"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/n2boost/laravel-huawei-push",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "lihao",
+            "email": "lihao@n2boost.com",
+            "homepage": "https://www.n2boost.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+      "php": "^7.0",
+      "laravel/framework": "~5.5.0|~5.6.0|~5.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "N2boost\\LaravelHuaweiPush\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "N2boost\\LaravelHuaweiPush\\HuaweiPushServiceProvider"
+            ]
+        }
+    }
+}
+
